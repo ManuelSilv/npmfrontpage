@@ -1,0 +1,260 @@
+html {
+  margin: 0 auto;
+  
+}
+
+/*NAVIGATION BAR*/
+nav {
+  
+  width: 100%;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 20px;
+  font-family: arial;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float:left;
+}
+
+/*HEADER top logo and login*/
+#heading-top{
+  margin: 0 auto;
+}
+
+.left-logo {
+  float:left;
+  
+}
+
+.searchbar {
+  float:right;
+  margin-left: 10px;
+  margin-right: 8px;
+
+}
+
+.searchbar input{
+  background: rgb(31, 82, 111);
+  
+}
+
+.left-logo input{
+  width: 1080px;
+  margin: 0 auto ;
+}
+
+.topright-login img{
+  
+  float: right;
+   margin-right: 10px;
+}
+
+.topright-login a {
+  color: white;
+  text-decoration: none;
+}
+
+.topright-login p {
+  color: white;
+  }
+/*HEADER*/
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+  background: rgb(32, 101, 136);
+  height:400px; 
+  background-image: url("C:\prework-ironhack\npm\images\imagescity-scape.svg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+/*HEADER midsection*/
+.heading-center {
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+  
+}
+
+.heading-center h1{
+  font-family: arial;
+    color: white;
+
+}
+
+.heading-center p {
+  color: white;
+  width: 50%;
+}
+
+.heading-center button{
+background: rgb(240, 146, 51);
+padding: 5px 5px 5px 5px;
+border-radius: 10px;
+}
+
+.heading-center a {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.heading-text {
+  float: left;
+}
+
+/* section 1*/
+
+.section1 {
+  width: 100%;
+  padding: 10px;
+  height: 300px; 
+  background: rgb(39, 53, 71);
+}
+
+.section1-container {
+  margin: 0 auto;
+  width: 60%;
+  padding: 40px  ;
+  
+}
+
+.section1-container h1 {
+  color: white;
+}
+
+.section1-container p {
+  color: white;
+}
+
+.section1-container li {
+  color: white;
+}
+
+.collab-image{
+padding: 5px;
+float: left;
+margin: -250px auto;
+}
+
+.collab {
+padding: 5px;
+float: right;
+}
+
+.collab button {
+  background-color: red;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+
+}
+
+.collab a {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+}
+
+/*section 2*/
+.section2 {
+  
+  width: 100%;
+  padding: 10px;
+  background-image: url("C:\prework-ironhack\npm\images\forklift.svg");
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background: rgb(32, 70, 136);
+}
+
+.section2-container {
+  margin: 0 300px auto;
+  padding-top: 100px;
+  width:25%;
+}
+
+.forklift-text h1 {
+    color: white;
+    padding: 10px;
+    text-align: left;
+    }
+
+    .forklift-text p{
+      color: white;
+      padding: 10px;
+      text-align: left;
+      }
+
+    .forklift-text button {
+      background-color: dimgray;
+      padding: 5px 5px 5px 5px;
+      border-radius: 10px;
+    }
+
+    .forklift-text a {
+      text-decoration: none;
+      color: white;
+    }
+/*section 3*/
+.section3 {
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px;
+}
+.section3 h1, p{ 
+  font-family: arial;
+  color: black;
+  text-align: center;
+}
+
+.find {
+  float: left;
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+.discover {
+  float: left;
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+.build {
+  float: right;
+  margin: auto;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
